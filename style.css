@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&family=Ubuntu:wght@400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.navbar .logo a span:hover
+{
+    color: crimson;
+    
+}
+
+.max-width
+{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+}
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a:hover
+{
+    color: crimson;
+    transition: 0.2s;
+}
+.navbar .menu li a
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.home 
+{
+    display: flex;
+    background: rgb(69,74,103);
+    background: linear-gradient(180deg, rgba(69,74,103,1) 0%, rgba(202,101,117,1) 90%, rgba(200,92,108,1) 100%);
+    height: 100vh;
+    color: whitesmoke;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1
+{
+    font-size: 27px;
+}
+.home .home-content .text-2
+{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3
+{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-2:hover
+{    
+    font-weight: 500;
+}
+.text-3 a
+{
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 450;
+}
+.about
+{
+    background: rgb(69,74,103);
+    background: linear-gradient(360deg, rgba(69,74,103,1) 0%, rgba(202,101,117,1) 90%, rgba(200,92,108,1) 100%);
+}
+.about
+{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title
+{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about .title::before
+{
+    content: "";
+    position: absolute;
+    width: 495px;
+    left: 50%;
+    height: 3px;
+    bottom: 0px;
+    transform: translateX(-50%);
+    background: #333;
+}
+
+section
+{
+    padding: 100px 0;
+}
+.about .about-content .column-left img
+{
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    opacity: 75%;
+    object-fit: cover;
+
+} 
+.column-right a
+{
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.column-right span
+{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    
+}
+.about .about-content .column-left
+{
+    width: 45%;
+}
+.about .about-content .column-right
+{
+    width: 55%;
+}
+.about .about-content .column-right .text
+{
+    font-size: 25px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.about .about-content .column-right p
+{
+    text-align: justify;
+}
+.about .about-content .column-right a:hover
+{
+    color: crimson;
+    transition: 0.2s;
+    
+}
+.about .about-content
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.artwork
+{
+    background: rgb(69,74,103);
+    background: linear-gradient(180deg, rgba(69,74,103,1) 0%, rgba(202,101,117,1) 90%, rgba(200,92,108,1) 100%);
+}
+.artwork
+{
+    font-family: 'Poppins', sans-serif;
+}
+.artwork .title
+{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.artwork .title::before
+{
+    content: "";
+    position: absolute;
+    width: 220px;
+    left: 50%;
+    height: 3px;
+    bottom: 0px;
+    transform: translateX(-50%);
+    background: #333;
+}
+.artwork-content .left img
+{
+    border-radius: 10px;
+    width: 250px;
+    border: solid;
+    margin: 2px;
+   
+}
+.artwork-content
+{
+    margin-left: 5%;
+}
+.contact
+{
+    background: rgb(69,74,103);
+    background: linear-gradient(360deg, rgba(69,74,103,1) 0%, rgba(202,101,117,1) 90%, rgba(200,92,108,1) 100%);
+}
+.contact
+{
+    font-family: 'Poppins', sans-serif;
+}
+.contact .title
+{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact .title::before
+{
+    content: "";
+    position: absolute;
+    width: 380px;
+    left: 50%;
+    height: 3px;
+    bottom: 0px;
+    transform: translateX(-50%);
+    background: #333;
+}
+.contact .contact-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact-content .column-left 
+{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .column-left p
+{
+    text-align: justify;
+}
+.contact .contact-content .column-left .icons
+{
+    margin: 10px 0;
+}
+.contact .contact-content .row 
+{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info
+{
+    margin-left: 15px;
+}
+.contact .contact-content .info .head
+{
+    font-weight: 600;
+}
+.contact .contact-content .info .sub-title
+{
+    color: #333;
+}
+
+.contact .column-right form .fields
+{
+    display: flex;
+}
+.contact .column-right .fields input
+{
+    height: 45px;
+    width: 100%;
+    border: 2px solid lightgrey;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    border-radius: 6px;
+    background: transparent;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.contact .column-right form .fields input::placeholder
+{
+    color: black;
+    font-weight: 500;
+}
+.contact .column-right form .field,
+.contact .column-right form .fields .field
+{
+    height: 45px;
+    width: 100%;
+} 
+.contact .column-right form .field input::placeholder
+{
+    color: black;
+    font-weight: 500;
+}
+.contact .column-right form .field-textarea textarea
+{
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+}
+.contact .column-right form .field-textarea textarea::placeholder
+{
+    color: black;
+    font-weight: 500;
+}
+
+.contact .column-right form .field input
+{
+    height: 100%;
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+}
+.contact .column-right form div
+{
+    padding: 2px;
+}
+.contact .column-right form button
+{
+    background: transparent;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 36%;
+    font-size: 15px;
+}
+.contact .column-right form button:hover
+{
+    color: black;
+    border: 2px solid lightgray;
+    transition: 0.3s;
+    font-size: 15px;
+}
